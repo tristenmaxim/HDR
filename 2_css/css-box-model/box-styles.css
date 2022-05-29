@@ -32,3 +32,21 @@ h1, p {
     box-sizing: border-box;
     margin: 20px auto;
   }
+
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: red;
+  }
