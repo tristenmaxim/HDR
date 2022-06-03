@@ -1,9 +1,12 @@
-.synopsis {
+.page > p:first-of-type {
   color: #7E8184;
   font-style: italic;
 }
 
- .button {
+.button:link,               /* Поменяем это */
+.button:visited {           /* Поменяем это */
+  display: block;           /* Поменяем это */
+  text-decoration: none;    /* Поменяем это */
   color: #FFF;
   background-color: #29fd2f;
   font-weight: bold;
@@ -13,4 +16,67 @@
   border-radius: 5px;
   width: 200px;
   margin: 20px auto;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;
+}
+
+
+.synopsis em {
+  font-style: normal;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited:active {
+  color: red;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
+
+#button-2 {
+  color: #5D6063;
 }
