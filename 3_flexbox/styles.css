@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #0b24fb;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #fff;
+  }
