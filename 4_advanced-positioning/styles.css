@@ -15,7 +15,7 @@
   
   .example {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;;
   
     width: 800px;
     margin: 50px 0;
@@ -33,11 +33,17 @@
   }
 
   .item-absolute {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
 
-.absolute {
+  .absolute {
     position: relative;
+  }
+
+  .item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
   }
